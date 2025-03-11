@@ -1,0 +1,226 @@
+.thumbnail {
+  border-radius: 10px;
+  background-color: #dcebfe;
+  padding-left: 80px;
+  padding-right: 18px;
+  overflow: hidden;
+}
+
+.content-wrapper {
+  gap: 20px;
+  display: flex;
+}
+
+.content-column {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  line-height: normal;
+  width: 32%;
+  margin-left: 0;
+}
+
+.content-container {
+  display: flex;
+  margin: auto 0;
+  width: 100%;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.logo-container {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  font-family:
+    Inter,
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-size: 48px;
+  color: #1a3453;
+  font-weight: 700;
+  white-space: nowrap;
+  justify-content: space-between;
+}
+
+.logo-wrapper {
+  align-self: stretch;
+  display: flex;
+  min-width: 240px;
+  margin: auto 0;
+  width: 325px;
+  align-items: stretch;
+  gap: 17px;
+}
+
+.logo-image {
+  aspect-ratio: 1.31;
+  object-fit: contain;
+  object-position: center;
+  width: 64px;
+  margin: auto 0;
+  flex-shrink: 0;
+}
+
+.logo-text {
+  flex: 1;
+  width: 232px;
+  font-size: inherit;
+  margin: 0;
+}
+
+.main-heading {
+  color: #1a3453;
+  font-family:
+    Inter,
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 80px;
+  margin: 74px 0 0;
+}
+
+.sub-heading {
+  color: #1a3453;
+  font-family:
+    Inter,
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -1.59px;
+  margin: 97px 21px 0 0;
+}
+
+.download-button {
+  border: none;
+  border-radius: 100px;
+  background-color: #fff;
+  box-shadow: 0 64px 96px rgba(58, 58, 58, 0.2);
+  align-self: flex-start;
+  display: flex;
+  margin-top: 59px;
+  padding: 18px 36px;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.figma-icon-wrapper {
+  align-self: stretch;
+  display: flex;
+  margin: auto 0;
+  align-items: flex-start;
+  gap: 28px;
+  justify-content: flex-start;
+  width: 55px;
+}
+
+.figma-icon {
+  display: flex;
+  min-height: 55px;
+  width: 55px;
+}
+
+.button-text {
+  color: #000;
+  font-size: 28px;
+  font-family:
+    Inter,
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-weight: 700;
+  line-height: 1;
+  align-self: stretch;
+  margin: auto 0;
+}
+
+.image-column {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  line-height: normal;
+  width: 68%;
+  margin-left: 20px;
+}
+
+.preview-image {
+  aspect-ratio: 1.03;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  flex-grow: 1;
+}
+
+@media (max-width: 991px) {
+  .thumbnail {
+    padding-left: 20px;
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  .content-column {
+    width: 100%;
+  }
+
+  .content-container {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
+  .logo-container {
+    font-size: 40px;
+    white-space: initial;
+  }
+
+  .logo-wrapper {
+    font-size: 40px;
+    white-space: initial;
+  }
+
+  .logo-text {
+    font-size: 40px;
+  }
+
+  .main-heading {
+    max-width: 100%;
+    margin-top: 40px;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .sub-heading {
+    max-width: 100%;
+    margin: 40px 10px 0;
+    font-size: 40px;
+  }
+
+  .download-button {
+    padding: 18px 20px;
+    margin-top: 40px;
+  }
+
+  .image-column {
+    width: 100%;
+  }
+
+  .preview-image {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
